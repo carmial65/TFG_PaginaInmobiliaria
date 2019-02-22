@@ -1,0 +1,702 @@
+/*General*/
+
+#main-header {
+	background: #3fac19;
+	color: white;
+	height: 105px;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+	#main-header a {
+			font-family:  Helvetica;
+			text-decoration: none;
+			font-size: 50%;
+			color: #FFFFFF;
+			margin-right: 5%;
+			
+	}
+ 
+/* Logo */
+#logo-header {
+	float: left;
+	margin-top: 2px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	width: 100px;
+    height: 100px;
+	text-decoration: none;
+
+}
+	
+ 
+/* Navegación */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		margin-top: -25px;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			margin-top: 10%;
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+				
+			}
+
+/* Footer */
+footer{
+	background: #3fac19;
+	width: 100%;
+	height: 50px;
+	float: left;
+	margin-top: 8%;
+    vertical-align: bottom;
+}
+
+#footer_container p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+			
+h2 {font-family: Helvetica;}
+
+p {font-family:Myriad Pro, Helvetica;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 20%;
+	margin-bottom: 0%}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #000000;
+	 /*imagen de fondo*/
+	background-image: url(ImgGenereal/Fondo2web.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	  /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando la altura del contenido supere la altura de la imagen. */
+ 	 background-attachment: fixed;
+  		/* La imagen de fondo se reescala cuando se cambia el ancho de ventana del navegador */
+ 	 background-size: cover;
+
+	font-size: 3em;
+	line-height: 1.0em;
+}
+
+	
+/* Home */	
+
+#Novedades{
+	margin-right: 5%;
+	margin-top: 9.5%;
+	float:right;
+	width: 20%;
+	font-size: 60%;
+}
+
+#Novedades img {
+	margin-top: -15%;
+	margin-left: -15%;
+}
+
+#VideoGrande{
+	
+	margin-top: 5%;
+	float:left;
+	text-align: center;
+	font-size: 50%;
+	width: 50%;
+	height: 80%;
+}
+
+
+
+#RRSS{
+	margin-left: 5%;
+	margin-right: -5%;
+	margin-top: 0%;
+	float:left;
+	text-align: center;
+	width: 60%;
+	font-size: 37%;
+}
+
+#RRSS p {
+	margin-top: -3%;
+}
+
+
+/* Nosotros */	
+#todo { 	
+	width: 100%;
+	margin-top: 5;
+}
+
+#contenido {
+	width: 50%;
+	margin-top: 10%;
+	font-size: 0.78em;
+	margin-left: 25%;
+	background: #EAEAEA;
+}
+
+#contenido p {
+	float:center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: left;
+	line-height: 1.5;
+}
+
+#izquierda {
+	float: left;
+	margin-left: 6%;
+  	margin-top: 5%;
+	width: 20%;
+	
+}
+
+#izquierda img {
+	width: 230px;
+    height: 230px;
+	float: none;
+	margin-left: 4%;
+}
+
+#izquierda h1 {
+	float: none;
+	text-align: left;
+	margin-left: -1%;
+	margin-right: 13%;
+	margin-top: -3%;
+	font-size: 0.5em;
+	
+}
+
+#izquierda p {
+	float: none;
+	text-align: left;
+	margin-left: -7.5%;
+	margin-right: 19%;
+	margin-top: -4%;
+	font-size: 0.4em;
+	line-height: 2;
+	
+}
+
+#derecha {
+	float: right;
+	margin-right: -0.5%;
+  	margin-top: 5%;
+	width: 20%;
+	
+}
+
+#derecha img {
+	width: 230px;
+    height: 230px;
+	text-align: center;
+	margin-left: 9%;
+}
+
+#derecha h1 {
+	float: none;
+	text-align: left;
+	margin-left:2%;
+	margin-top: -3%;
+	font-size: 0.5em;
+}
+
+#derecha p {
+	float: none;
+	text-align: left;
+	margin-left: 0%;
+	margin-rigth: 0%;
+	margin-top: -4%;
+	font-size: 0.4em;
+	line-height: 2;
+}
+
+/* Contacto */	
+#formulario {
+  margin-left: 10%;
+  margin-top: 9%;
+  float: left;
+	font-size: 50%;
+}
+
+#formulario div label {
+  width: 20%;
+  float: left;
+
+}
+
+#redes{
+	margin-right: 5%;
+	margin-top: 8.5%;
+	float:right;
+	text-align: center;
+	font-size: 50%;
+	width: 40%;
+}
+
+#redes h2 {
+	margin-bottom: -15%;
+}
+
+#redes iframe {
+	margin-top: 20%;
+}
+
+#enlaces{
+	text-align: center;
+}
+
+/*Servicios*/
+
+#Columnaizq {
+	float: left;
+	width: 40%;
+	text-align: center;
+	margin-top: 11.5%;
+	margin-right: 2.5%;
+	margin-left: 5%;
+}
+
+#Columnadere {
+	float: right;
+	width: 40%;
+	text-align: center;
+	margin-top: 11.5%;
+	margin-left: 2.5%;
+	margin-right: 5%;
+}
+
+#tabla table {
+	border-style: solid;
+    border-collapse:collapse;
+   	border-width: thick;
+	border-color: #A29F9F;
+}
+
+#tabla thead {
+	background-color: #3fac19;
+	font-size: 40px;
+}
+
+#tabla tbody{
+	
+background: #EAEAEA;
+	
+}
+
+#tabla td {
+	font-size: 30px;
+	text-align: left;
+	float: center;
+	padding: 5%;
+	line-height: 60px;
+}
+
+
+/*Proyectos/
+
+/*Inmobiliaria*/
+
+/*Filtos de imágenes*/
+
+#Pisos:checked ~ #imgF .Pisos{
+	margin-top: 3%;
+}
+#Pisos:checked ~ #imgF .Pisos{
+	margin-top: 3%;
+}
+#Pisos:checked ~ #Andrea {
+	margin-top: -335%;
+}
+#Chalet:checked ~ #imgF .Chalet {
+	margin-top: 10%;
+} 
+
+#Chalet:checked ~ #Carlota {
+	margin-top: -335%;
+}
+#Apartamentos:checked ~ #imgF .Apartamentos, #Doshabitaciones:checked  ~ #imgF .Doshabitaciones{
+	margin-top: -2%;
+}
+#Apartamentos:checked ~ #Casatres, #Doshabitaciones:checked  ~ #Casatres {
+	margin-top: -335%;
+}
+#CasasRurales:checked ~ #imgF .CasasRurales, #Cuatrohabitaciones:checked  ~ #imgF .Cuatrohabitaciones{
+	margin-top: -9%;
+}
+
+#CasasRurales:checked ~ #Casacuatro, #Cuatrohabitaciones:checked  ~ #Casacuatro{
+	margin-top: -335%;
+}
+
+#Treshabitaciones:checked  ~ #Carlota {
+	margin-top: -348%;
+}
+#Treshabitaciones:checked  ~ #Andrea {
+	margin-top: -270%;
+}
+
+#Treshabitaciones:checked, #Pisos:checked  ~ #Andrea {
+	margin-top: -335%;
+}
+
+#Treshabitaciones:checked, #Chalet:checked  ~ #Carlota {
+	margin-top: -335%;
+}
+
+#max1:selected ~ #imgF .Pisos, #max1:selected ~ #imgF .Chalet, #max1:selected ~ #imgF .Apartamentos, #max1:selected ~ #imgF .CasasRurales{
+	display: none;
+}
+
+#Pisos:checked ~ #imgF .Chalet, #Pisos:checked ~ #imgF .Apartamentos, #Pisos:checked ~ #imgF .CasasRurales, #Pisos:checked ~ #Casacuatro, #Pisos:checked ~ #Carlota, #Pisos:checked ~ #Casatres {
+	display: none;
+}
+
+#Chalet:checked ~ #imgF .Pisos, #Chalet:checked ~ #imgF .Apartamentos, #Chalet:checked ~ #imgF .CasasRurales, #Chalet:checked ~ #Andrea, #Chalet:checked ~ #Casacuatro, #Chalet:checked ~ #Casatres {
+	display: none;
+}
+
+#Apartamentos:checked ~ #imgF .Chalet, #Apartamentos:checked ~ #imgF .Pisos, #Apartamentos:checked ~ #imgF .CasasRurales, #Apartamentos:checked ~ #Casacuatro, #Apartamentos:checked ~ #Carlota, #Apartamentos:checked ~ #Andrea{
+	display: none;
+}
+
+#CasasRurales:checked ~ #imgF .Chalet, #CasasRurales:checked ~ #imgF .Apartamentos, #CasasRurales:checked ~ #imgF .Pisos, #CasasRurales:checked ~ #Casatres, #CasasRurales:checked ~ #Carlota, #CasasRurales:checked ~ #Andrea, #CasasRurales:checked ~ #Casatres{
+	display: none;
+}
+
+
+
+#Unahabitacion:checked ~ #imgF .Doshabitaciones, #Unahabitacion:checked ~ #imgF .Treshabitaciones, #Unahabitacion:checked ~ #imgF .Cuatrohabitaciones, #Unahabitacion:checked  ~ #Carlota, #Unahabitacion:checked  ~ #Andrea, #Unahabitacion:checked  ~ #Casatres, #Unahabitacion:checked  ~ #Casacuatro{
+	display: none;
+}
+
+#Doshabitaciones:checked ~ #imgF .Unahabitacion, #Doshabitaciones:checked ~ #imgF .Treshabitaciones, #Doshabitaciones:checked ~ #imgF .Cuatrohabitaciones, #Doshabitaciones:checked  ~ #Carlota, #Doshabitaciones:checked  ~ #Andrea, #Doshabitaciones:checked  ~ #Casacuatro{
+	display: none;
+}
+#Treshabitaciones:checked ~ #imgF .Doshabitaciones, #Treshabitacioneschecked ~ #imgF .Unahabitacion, #Treshabitaciones:checked ~ #imgF .Cuatrohabitaciones, #Treshabitaciones:checked  ~ #Casatres, #Treshabitaciones:checked  ~ #Casacuatro {
+	display: none;
+}
+
+#Cuatrohabitaciones:checked ~ #imgF .Doshabitaciones, #Cuatrohabitaciones:checked ~ #imgF .Treshabitaciones, #Cuatrohabitaciones:checked ~ #imgF .Unahabitacion, #Cuatrohabitaciones:checked  ~ #Casatres, #Cuatrohabitaciones:checked  ~ #Carlota, #Cuatrohabitaciones:checked  ~ #Andrea {
+	display: none;
+}
+
+
+
+#Sinamueblar:checked ~ #imgF .Amueblado, #Sinamueblar:checked ~ #imgF .Solococina{
+	display: none;
+}
+
+#Amueblado:checked ~ #imgF .Sinamueblar, #Amueblado:checked ~ #imgF .Solococina{
+display: none;
+}
+
+#Solococina:checked ~ #imgF .Amueblado, #Solococina:checked ~ #imgF .Sinamueblar{
+	display: none;
+}
+
+
+
+#Mascotas:checked ~ #imgF .Aire, #Mascotas:checked ~ #imgF .Ascensor, #Mascotas:checked ~ #imgF .Terraza, 
+#Mascotas:checked ~ #imgF .Piscina, #Mascotas:checked ~ #imgF .Trastero,#Mascotas:checked ~ #imgF .Garaje,#Mascotas:checked ~ #imgF .Jardin{
+	display: none;
+}
+
+#Aire:checked ~ #imgF .Mascotas, #Aire:checked ~ #imgF .Ascensor, #Aire:checked ~ #imgF .Terraza, 
+#Aire:checked ~ #imgF .Piscina, #Aire:checked ~ #imgF .Trastero,#Aire:checked ~ #imgF .Garaje,#Aire:checked ~ #imgF .Jardin{
+	display: none;
+}
+
+#Ascensor:checked ~ #imgF .Mascotas, #Ascensor:checked ~ #imgF .Aire, #Ascensor:checked ~ #imgF .Terraza, 
+#Ascensor:checked ~ #imgF .Piscina, #Ascensor:checked ~ #imgF .Trastero,#Ascensor:checked ~ #imgF .Garaje,#Ascensor:checked ~ #imgF .Jardin{
+	display: none;
+}
+
+#Terraza:checked ~ #imgF .Mascotas, #Terraza:checked ~ #imgF .Aire, #Terraza:checked ~ #imgF .Ascenosr, 
+#Terraza:checked ~ #imgF .Piscina, #Terraza:checked ~ #imgF .Trastero,#Terraza:checked ~ #imgF .Garaje,#Terraza:checked ~ #imgF .Jardin{
+	display: none;
+}
+
+#Piscina:checked ~ #imgF .Mascotas, #Piscina:checked ~ #imgF .Aire, #Piscina:checked ~ #imgF .Ascenosr, 
+#Piscina:checked ~ #imgF .Terraza, #Piscina:checked ~ #imgF .Trastero,#Piscina:checked ~ #imgF .Garaje,#Piscina:checked ~ #imgF .Jardin{
+	display: none;
+}
+
+#Trastero:checked ~ #imgF .Mascotas, #Trastero:checked ~ #imgF .Aire, #Trastero:checked ~ #imgF .Ascenosr, 
+#Trastero:checked ~ #imgF .Terraza, #Trastero:checked ~ #imgF .Piscina,#Trastero:checked ~ #imgF .Garaje,#Trastero:checked ~ #imgF .Jardin{
+	display: none;
+}
+
+#Garaje:checked ~ #imgF .Mascotas, #Garaje:checked ~ #imgF .Aire, #Garaje:checked ~ #imgF .Ascenosr, 
+#Garaje:checked ~ #imgF .Terraza, #Garaje:checked ~ #imgF .Piscina,#Garaje:checked ~ #imgF .Trastero,#Garaje:checked ~ #imgF .Jardin{
+	display: none;
+}
+
+#Jardin:checked ~ #imgF .Mascotas, #Jardin:checked ~ #imgF .Aire, #Jardin:checked ~ #imgF .Ascenosr, 
+#Jardin:checked ~ #imgF .Terraza, #Jardin:checked ~ #imgF .Piscina,#Jardin:checked ~ #imgF .Trastero,#Jardin:checked ~ #imgF .Garaje{
+	display: none;
+}
+
+
+#Horas:checked ~ #imgF .Semana, #24:checked ~ #imgF .Mes{
+	display: none;
+}
+
+#Semana:checked ~ #imgF .Horas, #Semana:checked ~ #imgF .Mes{
+	display: none;
+}
+
+#Mes:checked ~ #imgF .Semana, #Mes:checked ~ #imgF .Horas{
+	display: none;
+}
+
+
+#Filtros p {
+	font-size: 20px;
+	margin-right:80%;
+	margin-left: 3%;
+	white-space: nowrap;
+	
+}
+
+#Filtros label {
+	font-size: 20px;
+	
+}
+
+#Filtros input {
+	margin-left: 3%;
+	
+}
+#Filtros li {
+	list-style:none;
+	
+	
+}
+
+#Filtros li ul {
+	line-height: 9px;
+	list-style:none;
+	
+}
+
+#Filtros ul {
+	line-height: 2px;
+	margin-left: -2%;
+	
+}
+
+#Filtros  {
+	width: 350px;
+	height: 1220px;
+	background-size:contain;
+	background-color: #EAEAEA;
+	margin-left: 2%;
+	margin-top: 7%;
+}
+
+#Filtros select {
+	margin-left: 3%;
+	
+}
+
+#imgF {
+	float: left;
+	margin-left: 130%;
+	margin-top: -357%;
+}
+
+#Andrea {
+	width: 240%;
+	height: 200%;
+	float: left;
+	margin-left: 300%;
+	margin-top: -269%;
+	line-height: 10px;
+	background-color: #EAEAEA;
+}
+
+#Andrea h1 {
+	font-size: 50px;
+	width: 100%;
+	margin-left: 2%;
+}
+
+#Andrea h3 {
+	font-size: 30px;
+	width: 100%;
+	margin-left: 2%;
+	margin-top: 6%;
+}
+
+#Andrea h5 {
+	font-size: 20px;
+	width: 100%;
+	margin-left: 2%;
+	margin-top: 4%;
+}
+
+#Andrea p {
+	font-size: 15px;
+	width: 100%;
+	margin-top: -2%;
+	margin-left: 2%;
+}
+
+#Carlota {
+	width: 240%;
+	height: 200%;
+	float: left;
+	margin-left: 300%;
+	margin-top: -349%;
+	line-height: 10px;
+	background-color: #EAEAEA;
+	
+}
+
+#Carlota h1{
+	font-size: 50px;
+	width: 100%;
+	margin-left: 2%;
+	
+}
+
+#Carlota h3{
+	font-size: 30px;
+	width: 100%;
+	margin-left: 2%;
+	margin-top: 6%;
+}
+
+#Carlota h5{
+	font-size: 20px;
+	width: 100%;
+	margin-left: 2%;
+	margin-top: 4%;
+}
+
+#Carlota p{
+	font-size: 15px;
+	width: 100%;
+	margin-top: -2%;
+	margin-left: 2%;
+}
+
+
+#Casatres {
+	width: 240%;
+	height: 200%;
+	float: left;
+	margin-left: 300%;
+	margin-top: -192%;
+	line-height: 10px;
+	background-color: #EAEAEA;
+	
+}
+
+#Casatres h1{
+	font-size: 50px;
+	width: 100%;
+	margin-left: 2%;
+	
+}
+
+#Casatres h3{
+	font-size: 30px;
+	width: 100%;
+	margin-left: 2%;
+	margin-top: 6%;
+}
+
+#Casatres h5{
+	font-size: 20px;
+	width: 100%;
+	margin-left: 2%;
+	margin-top: 4%;
+}
+
+#Casatres p{
+	font-size: 15px;
+	width: 100%;
+	margin-top: -2%;
+	margin-left: 2%;
+}
+
+#Casacuatro {
+	width: 240%;
+	height: 200%;
+	float: left;
+	margin-left: 300%;
+	margin-top: -113%;
+	line-height: 10px;
+	background-color: #EAEAEA;
+	
+}
+
+#Casacuatro h1{
+	font-size: 50px;
+	width: 100%;
+	margin-left: 2%;
+	
+}
+
+#Casacuatro h3{
+	font-size: 30px;
+	width: 100%;
+	margin-left: 2%;
+	margin-top: 6%;
+}
+
+#Casacuatro h5{
+	font-size: 20px;
+	width: 100%;
+	margin-left: 2%;
+	margin-top: 4%;
+}
+
+#Casacuatro p{
+	font-size: 15px;
+	width: 100%;
+	margin-top: -2%;
+	margin-left: 2%;
+}
+
+/*Constructora*/
+
+#Tconstructora{
+	font-size: 25px;
+	line-height: 40px;
+	margin-top: -10%;
+}
+
+#VideoVr {
+	margin-left: 8%;
+	margin-top: 3%;
+}
+
+#VideoVr iframe {
+	margin-left: 4.5%;
+}

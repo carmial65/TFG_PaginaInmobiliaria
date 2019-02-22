@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Inmobiliaria</title>
+	<link rel="stylesheet" type="text/css" href="../Estilo.css"/> 
+	
+</head>
+
+<body>
+
+	<header id="main-header">
+		<a href= "../index.html"><img id="logo-header" src="../ImgGenereal/logo.png"></a>
+		<nav>
+			<ul>
+				<li> <a href="../Nosotros/Nosotros.html">Nosotros</a></li> 
+        	    <li> <a href="../Servicios/Servicios.html">Servicios</a></li>
+        	     <li> <a href="Inmobiliaria.html">Inmobiliaria</a></li>
+       	      <li> <a href="../Constructora/Constructora.html">Constructora</a></li>
+        	    <li> <a href="../Contacto/Contact.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<div id = "Filtros"> 
+	    <li>
+	    
+	    <ul>
+	    <br><p>Precio</p>
+	    	<li>
+	    	<br>
+	    	<ul><label>Min</label>
+	    	<select name="Precios">
+  			 <option selected="" value="1" class="min1" >300</option>
+ 			 <option value="2" class="min2">500</option>
+ 			 <option value="3" class="min3">750</option>
+ 			 <option value="10" class="min4">1000</option>
+  			 <option value="11" class="min5">1250</option>
+			</select>
+			</ul>
+			<ul>
+			<label>Max</label>
+	    	<select name="Precios" class="max">
+  			 <option  value="1" class="max1" >500</option>
+ 			 <option value="2" class="max2">750</option>
+ 			 <option value="3" class="max3">1000</option>
+ 			 <option value="10" class="max4">1250</option>
+  			 <option selected="" value="11" class="max5">1500</option>
+			</select>
+			</ul>
+			</li>
+	    
+	    
+		<p>Tipos de vivienda</p>
+			<br>
+			<input type="radio" name="Tipos" id ="Pisos">
+			<label for ="Pisos">Pisos</label>
+			<br><br>
+			<input type= "radio" name="Tipos" id ="Chalet">
+			<label for ="Chalets">Chalets</label>
+			<br><br>
+			<input type="radio"  name="Tipos" id ="Apartamentos">
+ 			<label for ="Apartamentos">Apartamentos</label>
+			<br><br>
+			<input type="radio"  name="Tipos" id ="CasasRurales">
+ 			<label for ="CasasRurales">Casas rurales</label>
+	    
+	    
+		<p>Habitaciones</p>
+	    	<br>
+			<input type="radio" name="Habitaciones" id ="Unahabitacion">
+			<label for ="Unahabitacion">Una habitación</label>
+			<br> <br>
+			<input type= "radio" name="Habitaciones" id ="Doshabitaciones">
+			<label for ="Doshabitaciones">Dos habitaciones</label>
+			<br><br>
+			<input type="radio"   name="Habitaciones" id ="Treshabitaciones">
+			<label for ="Treshabitaciones">Tres habitaciones</label>
+			<br><br>
+			<input type="radio"  name="Habitaciones" id ="Cuatrohabitaciones">
+ 			<label for ="Cuatrohabitaciones">Cuatro o más habitaciones</label>
+       
+		<p>Equipamiento</p>
+			<br>
+			<input type="radio" name="Equipamiento" id ="Sinamueblar">
+			<label for ="Sinamueblar"> Sin amueblar</label>
+			<br><br>
+			<input type= "radio" name="Equipamiento" id ="Amueblado">
+			<label for ="Amueblado"> Amueblada </label>
+			<br><br>
+			<input type="radio"   name="Equipamiento" id ="Solococina">
+			<label for ="Solococina"> Sólo cocina equipada</label>
+        	
+		<p>Otras caractérisitcas</p>
+			<br><br>
+			<input type="checkbox" name="Equipamiento" id ="Mascotas">
+			<label for ="Mascotas"> Admite mascotas </label>
+			<br><br>
+			<input type= "checkbox" name="Equipamiento" id ="Aire">
+			<label for ="Aire"> Aire acondicionado </label>
+			<br><br>
+			<input type="checkbox"   name="Equipamiento" id ="Ascensor">
+			<label for ="Ascensor"> Ascensor </label>
+			<br><br>
+			<input type="checkbox"   name="Equipamiento" id ="Terraza">
+			<label for ="Terraza"> Terraza </label>
+			<br><br>
+			<input type="checkbox"   name="Equipamiento" id ="Piscina">
+			<label for ="Piscina"> Piscina</label>
+			<br><br>
+			<input type="checkbox"   name="Equipamiento" id ="Trastero">
+			<label for ="Trastero"> Trastero </label>
+			<br><br>
+			<input type="checkbox"   name="Equipamiento" id ="Garaje">
+			<label for ="Garaje"> Garaje </label>
+			<br><br>
+			<input type="checkbox"   name="Equipamiento" id ="Jardín">
+			<label for ="Jardin"> Jardín </label>
+	   
+		<p>Fecha de publicación</p>
+			<br>
+			<input type="radio" name="Equipamiento" id ="Horas">
+			<label for ="Horas"> Útimas 24 horas </label>
+			<br><br>
+			<input type= "radio" name="Equipamiento" id ="Semana">
+			<label for ="Semana"> Última semana </label>
+			<br><br>
+			<input type="radio"   name="Equipamiento" id ="Mes">
+			<label for ="Mes"> Último mes</label>
+		
+			<div id = "imgF">
+	    	<img src="Img/Salón chalet.png" width="450" height="230" alt="" class="Chalet Treshabitaciones"/> 
+	    	<br><br><br>
+  		 	<img src="Img/Cocina chalet.png" width="450" height="230" alt="" class="Pisos Treshabitaciones"/> 
+  		 	<br><br><br>
+  		 	<img src="Img/Salón-cocinav2.png" width="450" height="230" alt="" class="Apartamentos Doshabitaciones"/> 
+  		 	<br><br><br>
+  		 	<img src="Img/Hab matrimoniov2.png" width="450" height="230" alt="" class="CasasRurales Cuatrohabitaciones"/> 
+			</div>	
+			
+			<div id = "Carlota">
+			<h1>Chalet en Calle Carlota, 11</h1>
+			<h3>Madrid, Madrid</h3>
+			<h5>980€/mes, 102 m2</h5>
+			<p><b>3 habitaciones, 3 baños</b></p>
+			<br>
+			</div>
+			
+			<div id = "Andrea">
+			<h1>Piso en Avd Andrea, 23</h1>
+			<h3>Vallecas, Madrid</h3>
+			<h5>795€/mes </h5>
+			<p><b>3 habitaciones, 2 baños</b></p>
+			<br>
+			</div>
+			
+			<div id = "Casatres">
+			<h1>Apartamento en Avd Tres, 9</h1>
+			<h3>Madrid, Madrid</h3>
+			<h5>675€/mes </h5>
+			<p><b>2 habitaciones, 1 baños</b></p>
+			<br>
+			</div>
+			
+			<div id = "Casacuatro">
+			<h1>Casa Rural en Calle Cuatro, 28</h1>
+			<h3>Bargas, Toledo</h3>
+			<h5>795€/mes </h5>
+			<p><b>4 habitaciones, 2 baños</b></p>
+			<br>
+			</div>
+			
+			</ul>
+			</li>
+		</div>
+<footer>
+	<div id="footer_container">
+		<p class="copyright_text">&copy; Inmobiliaria CA 2018</p>
+	</div>
+</footer>
+</body>
+</html>
